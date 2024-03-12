@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "roxb";   /*Can be any text*/
+    src: local("RoxboroughCF.ttf"),
+      url("./fonts/Roxborough-CF/RoxboroughCF.ttf") format("truetype");
+}
+@font-face {
+    font-family: "donsky";
+    src: local("Donsky.ttf"),url("./fonts/donsky/Donsky.ttf") format("truetype");
+}
+
+.code-range,.nav-logo{
+    font-family: "roxb";
+}
+.intro-text{
+    font-family: "donsky";
+}
